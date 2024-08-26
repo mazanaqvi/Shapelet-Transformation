@@ -67,7 +67,7 @@ def main():
         time_contract_in_mins=time_contract_in_mins_per_dim,
         num_candidates_to_sample_per_case=initial_num_shapelets_per_case,
         min_shapelet_length=min_length,
-        max_shapelet_length=max_length,
+        max_shapelet_length=max_length,#
         verbose=verbose,
         predefined_ig_rejection_level=0.001,
         max_shapelets_to_store_per_class=30
