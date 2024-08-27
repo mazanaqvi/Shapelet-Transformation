@@ -7,10 +7,11 @@ import itertools
 import sys
 import pandas as pd
 
+
 from sklearn.preprocessing import LabelEncoder
 from tslearn.neighbors import KNeighborsTimeSeries
 from utils import get_shapelets_locations_test, get_nearest_neighbor
-
+#maza
 def main():
     random.seed(42)
     
