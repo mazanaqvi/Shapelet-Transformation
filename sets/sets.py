@@ -17,7 +17,8 @@ def main():
     max_perc = float(sys.argv[3])
     
     #name of current run (dataset + parameters combination)
-    run_name = '_'.join(dataset_name, str(time_contract_in_mins), str(max_perc))
+    run_name = '_'.join([dataset_name, str(time_contract_in_mins), str(max_perc)])
+
     
     #path of intermediary results directory
     inter_results = os.path.abspath(os.path.join('results', 'util_data', run_name))
