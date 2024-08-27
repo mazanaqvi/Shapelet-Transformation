@@ -4,8 +4,6 @@ import numpy as np
 import os
 import random
 import sys
-import pandas as pd
-
 from sklearn.preprocessing import LabelEncoder
 
 from utils import MultivariateTransformer, save_transformer, save_shapelets_distances
